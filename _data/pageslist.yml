@@ -1,0 +1,11 @@
+
+pages:
+  - title: O mnie
+    url: o-mnie.html
+
+  - title: Oferta
+    url: oferta.html
+
+  - title: Kontakt
+    url: kontakt.html
+
