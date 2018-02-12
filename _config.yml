@@ -17,7 +17,7 @@ title: Fizjo-step | Mobilna praktyka fizjoterapeutczyna
 description: > # this means to ignore newlines until "baseurl:"
   Mobilna praktyka terapeutczyna
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fizjo-step.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://fizjo-step.pl" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -34,3 +34,9 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

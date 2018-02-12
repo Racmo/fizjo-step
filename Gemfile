@@ -28,3 +28,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #For github pages
 gem "github-pages", group: :jekyll_plugins
+
+#Redirect - http 301 fix?
+gem 'jekyll-redirect-from'
