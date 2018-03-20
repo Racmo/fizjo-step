@@ -10,6 +10,9 @@ $small-screen: 800px;
 
 body{
 	font-size: 1.5em;
+	 display: flex;
+  min-height: 100vh;
+  flex-direction: column
 }
 
 img{
@@ -89,6 +92,7 @@ img{
 .content{
 	padding-left: 200px;
 	padding-right: 200px;
+	flex: 1;
 	h1{
 		color: $dark-blue;
 	}
