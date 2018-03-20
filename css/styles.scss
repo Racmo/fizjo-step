@@ -5,10 +5,11 @@
 $dark-blue: rgb(41, 128, 185);
 $light-blue: rgb(127, 179, 216);
 $yellow: rgb(241,196,15);
+$small-screen: 800px;
 
 
 body{
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 img{
@@ -44,7 +45,7 @@ img{
 }
 
 .img-logo{
-	width: 15%;
+	width: 22%;
 }
 
 .content-img{
@@ -86,8 +87,8 @@ img{
 }
 
 .content{
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
 	h1{
 		color: $dark-blue;
 	}
@@ -98,6 +99,11 @@ img{
 			margin-top: 5px;
 		}
 	}
+
+	@media screen and (max-width: $small-screen) {
+    padding-left: 50px;
+	padding-right: 50px;
+  }
 }
 
 .footer{
@@ -117,4 +123,37 @@ img{
 	margin-bottom: 50px;
 }
 
+.navbar-slider{
+	text-align: center;
+	background-color: $dark-blue;
+	color: white;
+	margin-top: 20px;
+	margin-bottom:50px;
+	a{
+		color:white;
+	}
+}
 
+.logo-container{
+	text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.navbar-default .navbar-nav > li{
+	a{
+		color: white;
+	}
+	a:hover{
+		color: $yellow;
+	}
+}
