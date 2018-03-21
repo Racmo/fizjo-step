@@ -1,5 +1,8 @@
 
 pages:
+  - title: Strona główna
+    url: index.html
+
   - title: O mnie
     url: o-mnie.html
 
@@ -8,4 +11,3 @@ pages:
 
   - title: Kontakt
     url: kontakt.html
-
