@@ -5,7 +5,7 @@
 $dark-blue: rgb(41, 128, 185);
 $light-blue: rgb(127, 179, 216);
 $yellow: rgb(241,196,15);
-$small-screen: 576px;
+$small-screen: 500px;
 
 
 img{
@@ -17,10 +17,6 @@ p{
 }
 
 .page-container{
-	width: 100%;
-}
-
-.container-fluid{
 	width: 100%;
 }
 
@@ -68,8 +64,6 @@ p{
 	margin: 20px 10px 20px 10px;
 }
 
-
-
 .quote{
 	position: absolute;
 	bottom: 0px;
@@ -100,11 +94,6 @@ p{
 			margin-top: 5px;
 		}
 	}
-
-	@media (min-width: $small-screen) {
-    padding-left: 50px;
-	padding-right: 50px;
-  }
 }
 
 .footer{
@@ -159,5 +148,16 @@ p{
 	}
 	a:hover{
 		color: $yellow;
+	}
+}
+
+@media (max-width: $small-screen) {
+	.content {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	h1 {
+		font-size: 2em;
 	}
 }
