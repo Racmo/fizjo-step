@@ -8,13 +8,6 @@ $yellow: rgb(241,196,15);
 $small-screen: 800px;
 
 
-body{
-	font-size: 1.5em;
-	 display: flex;
-  min-height: 100vh;
-  flex-direction: column
-}
-
 img{
 	border-radius: 5px 5px 5px 5px;
 }
@@ -111,6 +104,8 @@ p{
 	@media screen and (max-width: $small-screen) {
     padding-left: 50px;
 	padding-right: 50px;
+
+
   }
 }
 
