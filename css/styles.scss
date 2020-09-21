@@ -5,7 +5,7 @@
 $dark-blue: rgb(41, 128, 185);
 $light-blue: rgb(127, 179, 216);
 $yellow: rgb(241,196,15);
-$small-screen: 800px;
+$small-screen: 576px;
 
 
 img{
@@ -101,11 +101,9 @@ p{
 		}
 	}
 
-	@media screen and (max-width: $small-screen) {
+	@media (min-width: $small-screen) {
     padding-left: 50px;
 	padding-right: 50px;
-
-
   }
 }
 
